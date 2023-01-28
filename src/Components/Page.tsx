@@ -7,6 +7,7 @@ export default function Page() {
       <Row>
         <Col>
           <div className="Responsive">
+            
             <div className='contents'>
               <h1 className='Titulo'>Modern interior</h1>
               <p className='description'>
@@ -18,18 +19,20 @@ export default function Page() {
               </a>
             </div>
 
-            <div>
-              <img src="../assets/img/photo1.png" alt="Photo1" />
-              <div>
-                <div>
-                  <img src="../assets/img/photo2.png" alt="Photo2" />
-                  <div>
-                    <h2>Aliza Webber</h2>
-                    <p>Interior designer</p>
+            <div className='Contenedor'>
+              <img className='FirtsImagen' src="https://github.com/pipetboy2001/Interios-Consultant/blob/main/src/assets/img/photo1.png?raw=true" alt="Photo1" />
+              <div className='Cuadrado'>
+
+                <div className='Foto-texto'>
+                  <img className='SecondImagen' src="https://github.com/pipetboy2001/Interios-Consultant/blob/main/src/assets/img/photo2.png?raw=true" alt="Photo2" />
+                  <div className="profile">
+                    <h2 className="profile-details">Aliza Webber</h2>
+                    <p className='name-designer'>Interior designer</p>
                   </div>
                 </div>
+
                 <div>
-                  <p>Designed in 2020 by Aliza Webber</p>
+                  <p className="content-section">Designed in 2020 by Aliza Webber</p>
                 </div>
               </div>
             </div>
