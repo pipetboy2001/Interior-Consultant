@@ -8,7 +8,7 @@ export const Header = () => {
     <>
       <Navbar bg="dark" expand={false} className="mb-3">
         <Container fluid>
-          <Navbar.Brand href="/"></Navbar.Brand>
+          <Navbar.Brand href="/" className='navBarBrand'> Interiors</Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${false}`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-${false}`}

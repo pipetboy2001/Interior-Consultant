@@ -1,0 +1,26 @@
+.navBarBrand{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    border-color: #fff;
+    border-style: solid;
+    
+    &:hover{
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+
+.offcanvas{
+    background-color: #000;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
