@@ -1,5 +1,5 @@
 .footer {
-    background-color: #b1b1c3;
+    background-color: #565658;
     border-top: 1px solid #ffffff;
     padding: 1rem 0;
     position: relative;
@@ -7,17 +7,12 @@
     width: 100%;
     text-align: center;
     color: #ffffff;
+    position: absolute;
+    bottom: -40px;
 
-    position:absolute;
-
-    bottom:-40px;
-
-
-        @media (max-width: 600px) {
-            position: relative;
-        }
-        
-    
+    @media (max-width: 600px) {
+        position: relative;
+    }
 
     p {
         margin: 0;
@@ -32,7 +27,6 @@
     img {
         width: 100%;
     }
-
 }
 
 .footer-column {

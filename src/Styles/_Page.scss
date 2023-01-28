@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Avenir';
+    src: url("../Fonts/AvenirNextLTPro-Regular.otf") format('opentype');
+}
+
 // Variables
 $font-primary: "Montserrat";
 $font-secondary: "Lora";
@@ -53,7 +58,7 @@ $max-width-content-section: 210px;
 
 // Estilos
 .Titulo {
-    font-family: "Lora";
+    font-family: 'Avenir', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
