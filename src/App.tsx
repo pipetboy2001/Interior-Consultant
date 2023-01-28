@@ -10,6 +10,8 @@ function App() {
       <Header/>
       <Page/>
       <Footer/>
+      <br/>
+      <br/>
     </>
   )
 }
