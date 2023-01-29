@@ -30,13 +30,15 @@ Solucion para el challenge de crear una Pagina de consulta de interiores
 ## Características
 
 - Puedo ver una página siguiendo el diseño dado
+- En el móvil, puedo ver una navegación colapsada
+- En el móvil, cuando selecciono el menú de hamburguesas, puedo ver una navegación
 
 ## Como Instalar de manera Local
 Para clonar y ejecutar esta aplicación, necesitará [Git](https://git-scm.com) y [Node.js](https://nodejs.org/en/download/) (que viene con [ npm](http://npmjs.com)) instalado en su computadora. Desde su línea de comando:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/pipetboy2001/404-Not-Found
+$ git clone https://github.com/pipetboy2001/Interior-Consultant
 
 # Install dependencies
 $ npm install
